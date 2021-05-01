@@ -1,0 +1,23 @@
+.section-1{
+    background: turquoise;
+}
+
+.section-1 h2 + p{
+    color: red;
+}
+
+.section-2{
+    background: teal;
+}
+
+.section-2 h2 ~ p{
+    color:red;
+}
+
+.section-3{
+    background: violet;
+}
+
+.div  p{
+    color: red;
+}
