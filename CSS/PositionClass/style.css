@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+.parent{
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two{
+    background-color: cadetblue;
+    position: absolute;
+    /* bottom: 15px; */
+}
+
+.container{
+    background-color: darkslategrey;
+    position: absolute;
+    top: 23vh;
+    left: 25vw;
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px 50px;
+}
+
+.container p{
+    max-width: 500px;
+    color: gainsboro;
+}
+
+.inside-box{
+    background-color: plum;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px 25px;
+    border: 2px grey solid;
+    left: 27%;
+    top: -40px;
+}
