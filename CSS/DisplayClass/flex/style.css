@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /* height: 50vh; */
+    /* align-items: baseline; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.box{
+    /* width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: cadetblue;
+}
+
+.box2{
+    background-color: cornflowerblue;
+    /* flex-grow: 1; */
+}
+
+.box3{
+    background-color: coral;
+}
+
+.box4{
+    background-color: aquamarine;
+}
+
+.box5{
+    background-color: burlywood;
+}
+
+.box6{
+    background-color: darksalmon;
+}
