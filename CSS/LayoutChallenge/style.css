@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: aquamarine;
+}
+
+.header-container{
+    display: inline-block;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 0;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.sidebar{
+    background-color: cadetblue;
+    padding: 10px;
+    width: 25vw;
+    height: calc(100vh - 113px);
+    position: absolute;
+    display: inline-block;
+}
+
+.sidebar-container{
+    background-color: darkslategrey;
+    margin: 10px 0;
+    border-radius: 5px;
+    height: 15vh;
+}
+
+.main{
+    background-color: cornflowerblue;
+}
+
+.main-container{
+    display: inline-block;
+    position: relative;
+    left: 25vw;
+    width: 75vw;
+    height: calc(100vh - 113px);
+}
+
+.footer{
+    background-color: darksalmon;
+    /* position: absolute; */
+}
